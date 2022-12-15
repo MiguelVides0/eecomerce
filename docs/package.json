@@ -1,0 +1,12 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "creado para entregar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Miguel",
+  "license": "ISC"
+}

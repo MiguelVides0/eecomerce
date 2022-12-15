@@ -1,0 +1,96 @@
+.diversos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+}
+
+.diversos__container{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    width: 1136px;
+}
+
+.diversos__titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.diversos__titulo-principal{
+    font-size: 32px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.diversos__todo{
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.diversos__cards{
+    display: flex;
+    gap: 15px
+}
+
+.diversos__card-titulo{
+    font-size: 16px;
+    font-style: Medium;
+    color: #464646; 
+    margin: 5px 0 10px 0;
+}
+
+.diversos__card-precio{
+    font-size: 16px;
+    font-weight: bold;
+    color: #232323;
+    margin-bottom: 5px;
+}
+
+.diversos__card-producto{
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 1136px){
+    .diversos__container{
+        padding: 2rem 1rem;
+    }
+    .diversos__card:nth-last-child(-n+2){
+        display: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px){
+    .diversos__container{
+        padding: 2rem 1rem;
+    }
+    .diversos__card:nth-last-child(-n+2){
+        display: none;
+    }
+    .diversos__titulo-principal{
+        font-size: 22px;
+    }
+    .diversos__todo{
+        font-size: 14px;
+    }
+    .diversos__cards{
+        flex-wrap: wrap;
+    }
+    .diversos__card-img{
+        width: 156px;
+        height: 174px;
+    }
+    .diversos__card-titulo{
+        font-size: 14px;
+    }
+    .diversos__card-precio{
+        font-size: 16px;
+    }
+    .diversos__card-producto{
+        font-size: 14px;
+    }
+}

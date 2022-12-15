@@ -1,0 +1,134 @@
+.todos{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+    background: #F5F5F5;
+}
+
+.todos__container{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    width: 1136px;
+}
+
+.todos__titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.todos__titulo-principal{
+    font-size: 32px;
+    color: #464646;
+    font-weight: 700;
+}
+
+
+.todos__boton{
+    background: #2A7AE4;
+    color: #ffffff;
+    border: none;
+    width: 156px;
+    height: 51px;
+}
+
+.icons{
+    position: relative;
+}
+
+.eliminar__icon{
+    position: absolute;
+    right: 35px;
+    bottom: 150px;
+}
+
+.editar__icon{
+    position: absolute;
+    right: 5px;
+    bottom: 150px;
+}
+
+.editar__icon:hover{
+    cursor: pointer;
+}
+
+.eliminar__icon:hover{
+    cursor: pointer;
+}
+
+.todos__cards{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.todos__card-titulo{
+    font-size: 16px;
+    font-style: Medium;
+    color: #464646; 
+    margin: 5px 0 10px 0;
+}
+
+.todos__card:not(.todos__card:nth-child(-n+6)){
+    margin-top: 35px;
+}
+
+.todos__card-img{
+    width: 176px;
+    height: 174px;
+}
+
+.todos__card-precio{
+    font-size: 16px;
+    font-weight: bold;
+    color: #232323;
+    margin-bottom: 5px;
+}
+
+.todos__card-id{
+    font-size: 14px;
+    color: #464646;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) and (max-width: 1136px){
+    .todos__container{
+        padding: 2rem 1rem;
+    }
+    .todos__card:not(.todos__card:nth-child(-n+4)){
+        margin-top: 35px;
+    }
+
+    .todos__card-img{
+        width: 164px;
+        height: 174px;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px){
+    .todos__container{
+        padding: 2rem 1rem;
+    }
+    .todos__titulo{
+        flex-direction: column;
+    }
+    .todos__titulo-principal{
+        margin-bottom: 15px;
+        font-size: 22px;
+    }
+    .todos__boton{
+        width: 118px;
+    }
+    .todos__card:not(.todos__card:nth-child(-n+2)){
+        margin-top: 35px;
+    }
+    .todos__cards{
+        justify-content: center;
+    }
+    .todos__card-img{
+        width: 140px;
+        height: 174px;
+    }
+}

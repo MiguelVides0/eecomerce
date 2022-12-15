@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>AluraGeek | Agregar producto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-datos">
+                <a class="header__titulo-principal" href="#">
+                    <img class="header__titulo-logo" src="multimedia/logo.png" alt="logo">
+                    <h1 class="header__titulo"><span class="header__titulo-letra">Alura</span>Geek</h1>
+                </a>
+                <div class="header__input">
+                    <input class="header__buscador" type="search" placeholder="¿Qué deseas buscar?">
+                    <img class="header__input-buscador" src="multimedia/buscador.png" alt="">
+                </div>
+            </div>
+            <a class="header__button add" href="todosproductos.html" target="_blank"><button class="header__button add">Menú del administrador</button></a>
+        </div>
+    </header>
+    <main>
+        <section class="producto">
+            <form class="producto__container" data-form>
+                <h1 class="producto__titulo">Agregar Nuevo producto</h1>
+                <div class="producto__input">
+                    <input name="url" id="url" class="input-producto" type="url" placeholder="url de la imagen" data-form-image>
+                    <label class="input-label__producto" for="url">Url de la imagen</label>
+                </div>
+                <div class="producto__input">
+                    <input name="categoria" id="categoria" class="input-producto" type="text" placeholder="Categoría" data-form-section>
+                    <label class="input-label__producto" for="categoria">Categoría</label>
+                </div>
+                <div class="producto__input">
+                    <input name="nombreProducto" id="nombreProducto" class="input-producto" type="text" placeholder="Nombre del Producto" data-form-name>
+                    <label class="input-label__producto" for="nombreProducto">Nombre del Producto</label>
+                </div>
+                <div class="producto__input">
+                    <input name="precioProducto" id="precioProducto" class="input-producto" type="text" placeholder="Precio del Producto" data-form-price>
+                    <label class="input-label__producto" for="precioProducto">Precio del Producto</label>
+                </div>
+                <div class="producto-txtArea">
+                    <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Descripción del Producto" data-form-description></textarea>
+                </div>
+                <button type="submit" class="agregar__boton">Agregar Producto</button>
+            </form>
+        </section>
+        <section class="contacto">
+            <div class="contacto__container">
+                <div class="contacto__datos">
+                    <div class="contacto__logo">
+                        <img src="multimedia/logo.png" alt="logo">
+                        <h1 class="contacto__titulo"><span class="contacto__titulo-letra">Alura</span>Geek</h1>
+                    </div>
+                    <div class="contacto__informacion">
+                        <ul>
+                            <li class="contacto__link"><a href="">Quienes somos</a></li>
+                            <li class="contacto__link"><a href="">Politica de privacidad</a></li>
+                            <li class="contacto__link"><a href="">Programa de fidelidad</a></li>
+                            <li class="contacto__link"><a href="">Nuestras tiendas</a></li>
+                            <li class="contacto__link"><a href="">Quiero ser franquiciado</a></li>
+                            <li class="contacto__link"><a href="">Anuncie aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacto__formulario">
+                    <h4 class="contacto__formulario-titulo">Hable con nosotros</h4>
+                    <div class="contacto__input">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre">
+                        <label class="input-label" for="name">Nombre</label>
+                    </div>
+                    <div class="contacto-txtArea">
+                        <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <button class="contacto__formulario-boton">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <h1 class="footer__datos">Desarrollado por Miguel Vides 2022</h1>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="js/controllers/nuevoProductoController.js"></script>
+    
+</body>
+</html>

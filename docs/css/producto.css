@@ -1,0 +1,119 @@
+.producto{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+    background: #F5F5F5;
+}
+
+
+.producto__titulo{
+    font-size: 32px;
+    font-weight: 700;
+    color: #464646;
+    margin-bottom: 25px;
+    padding-top: 65px;
+}
+
+.producto__input{
+    position: relative;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.input-producto {
+    box-sizing: border-box;
+    border: none;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 500px;
+    background: #ffffff;
+    font-size: 18px;
+}
+
+.input-producto::placeholder {
+    visibility: hidden;
+    color: #00000000;
+}
+
+.input-producto:focus {
+    outline: none;
+}
+
+.input-label__producto {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: 20px;
+    transition: all 0.25s;
+    color: #A2A2A2;
+}
+
+.input-producto:not(:placeholder-shown) + .input-label__producto,
+.input-producto:focus + .input-label__producto {
+  font-size: 0.875rem;
+  top: 0.25rem;
+  transition: all 0.25s;
+}
+
+.textarea{
+    resize: none;
+    box-sizing: border-box;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 100px;
+    width: 100%;
+    background: #ffffff;
+    font-family:'Raleway', sans-serif;
+    color: #A2A2A2;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.textarea:focus{
+    outline: none;
+}
+
+.agregar__boton{
+    margin-top: 10px;
+    width: 100%;
+    height: 60px;
+    background: #2A7AE4;
+    color: #ffffff !important;
+    border: none;
+    font-size: 16px;
+    transition: all 1s ease;
+    margin-bottom: 25px;
+}
+
+.agregar__boton:hover{
+    background: #ffffff;
+    color: #2A7AE4 !important;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1136px){
+    .producto__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px){
+    .producto__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem 1rem;
+    }
+    .input-producto{
+        width: 328px;
+    }
+    .textarea{
+        width: 328px;
+    }
+}

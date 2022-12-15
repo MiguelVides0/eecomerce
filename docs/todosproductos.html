@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/todosproductos.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>AluraGeek | Todos los productos</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-datos">
+                <a class="header__titulo-principal" href="#">
+                    <img class="header__titulo-logo" src="multimedia/logo.png" alt="logo">
+                    <h1 class="header__titulo"><span class="header__titulo-letra">Alura</span>Geek</h1>
+                </a>
+                <div class="header__input">
+                    <input class="header__buscador" type="search" placeholder="¿Qué deseas buscar?">
+                    <img class="header__input-buscador" src="multimedia/buscador.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="todos">
+            <div class="todos__container">
+                <div class="todos__datos" >
+                    <div class="todos__titulo">
+                        <h1 class="todos__titulo-principal">Todos los productos</h1>
+                        <a href="agregar.html" target="_blank"><button class="todos__boton">Agregar producto</button></a>
+                    </div>
+                    <div class="todos__cards" data-productos-todos>
+                       <!--  <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star1.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#1</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star2.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#2</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star3.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#3</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star4.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#4</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star5.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#5</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/star6.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#6</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas1.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Control xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#7</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas2.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Control y Consola xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#8</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas3.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Consola xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#9</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas4.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Control xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#10</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas5.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Consola xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#11</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/consolas6.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Game Boy Color</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#12</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos1.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Camisa Atari</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#13</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos2.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Camisa SNES</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#14</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos3.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#15</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos4.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Control y Consola xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#16</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos5.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Control y Consola xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#17</span>
+                        </div>
+                        <div class="todos__card">
+                            <img class="todos__card-img" src="multimedia/diversos6.png" alt="">
+                            <div class="icons">
+                                <img class="eliminar__icon" src="multimedia/eliminar.png" alt="">
+                                <img class="editar__icon" src="multimedia/editar.png" alt="">
+                            </div>
+                            <h4 class="todos__card-titulo">Producto xyz</h4>
+                            <h4 class="todos__card-precio">$60.00</h4>
+                            <span class="todos__card-id">#18</span>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__container">
+                <div class="contacto__datos">
+                    <div class="contacto__logo">
+                        <img src="multimedia/logo.png" alt="logo">
+                        <h1 class="contacto__titulo"><span class="contacto__titulo-letra">Alura</span>Geek</h1>
+                    </div>
+                    <div class="contacto__informacion">
+                        <ul>
+                            <li class="contacto__link"><a href="">Quienes somos</a></li>
+                            <li class="contacto__link"><a href="">Politica de privacidad</a></li>
+                            <li class="contacto__link"><a href="">Programa de fidelidad</a></li>
+                            <li class="contacto__link"><a href="">Nuestras tiendas</a></li>
+                            <li class="contacto__link"><a href="">Quiero ser franquiciado</a></li>
+                            <li class="contacto__link"><a href="">Anuncie aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacto__formulario">
+                    <h4 class="contacto__formulario-titulo">Hable con nosotros</h4>
+                    <div class="contacto__input">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre">
+                        <label class="input-label" for="name">Nombre</label>
+                    </div>
+                    <div class="contacto-txtArea">
+                        <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <button class="contacto__formulario-boton">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <h1 class="footer__datos">Desarrollado por Miguel Vides 2022</h1>
+        </div>
+    </footer>
+    <script type="module" src="js/controllers/todos_productos_controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+{
+  "producto": [
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star1.png",
+      "price": "100.00",
+      "id": 1,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star2.png",
+      "price": "60.00",
+      "id": 2,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star3.png",
+      "price": "70.00",
+      "id": 3,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star4.png",
+      "price": "80.00",
+      "id": 4,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star5.png",
+      "price": "50.00",
+      "id": 5,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/star6.png",
+      "price": "50.00",
+      "id": 6,
+      "alt": "Product",
+      "section": "Star wars",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Control xyz",
+      "imageUrl": "./multimedia/consolas1.png",
+      "price": "50.00",
+      "id": 7,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Control y consola xyz",
+      "imageUrl": "./multimedia/consolas2.png",
+      "price": "700.00",
+      "id": 8,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Consola xyz",
+      "imageUrl": "./multimedia/consolas3.png",
+      "price": "400.00",
+      "id": 9,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Control xyz",
+      "imageUrl": "./multimedia/consolas4.png",
+      "price": "50.00",
+      "id": 10,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Consola xyz",
+      "imageUrl": "./multimedia/consolas5.png",
+      "price": "500.00",
+      "id": 11,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Game Boy Color",
+      "imageUrl": "./multimedia/consolas6.png",
+      "price": "500.00",
+      "id": 12,
+      "alt": "Product",
+      "section": "Consolas",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Camisa Atari",
+      "imageUrl": "./multimedia/diversos1.png",
+      "price": "15.00",
+      "id": 13,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Camisa SNES",
+      "imageUrl": "./multimedia/diversos2.png",
+      "price": "18.00",
+      "id": 14,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/diversos3.png",
+      "price": "7.00",
+      "id": 15,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Control y consola xyz",
+      "imageUrl": "./multimedia/diversos4.png",
+      "price": "700.00",
+      "id": 16,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Control y consola xyz",
+      "imageUrl": "./multimedia/diversos5.png",
+      "price": "800.00",
+      "id": 17,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "name": "Producto xyz",
+      "imageUrl": "./multimedia/diversos6.png",
+      "price": "70.00",
+      "id": 18,
+      "alt": "Product",
+      "section": "Diversos",
+      "description": "Voluptas voluptatum quibusdan similique, class debitis alias maecenas e"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/originals/e1/8b/23/e18b2393424309c56ac7791240026499.jpg",
+      "section": "Star wars",
+      "name": "Taza de clone",
+      "price": "8.50",
+      "description": "Taza para regalar o tomar un té relajado",
+      "id": "8682c3b5-f5ff-40df-9f34-331316b58d06"
+    }
+  ]
+}

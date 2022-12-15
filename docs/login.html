@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Login AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__container-datos">
+                <a class="header__titulo-principal" href="#">
+                    <img class="header__titulo-logo" src="multimedia/logo.png" alt="logo">
+                    <h1 class="header__titulo"><span class="header__titulo-letra">Alura</span>Geek</h1>
+                </a>
+                <div class="header__input">
+                    <input class="header__buscador" type="search" placeholder="¿Qué deseas buscar?">
+                    <img class="header__input-buscador" src="multimedia/buscador.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="login">
+            <div class="login__container">
+                <h1 class="login__titulo">Iniciar sesión</h1>
+                <div class="login__input">
+                    <input name="email" id="email" class="input-login" type="email" placeholder="Email">
+                    <label class="input-label__login" for="email">e-mail</label>
+                </div>
+                <div class="login__input">
+                    <input name="contrasena" id="contrasena" class="input-login" type="password" placeholder="Contraseña">
+                    <label class="input-label__login" for="contrasena">contraseña</label>
+                </div>
+                <a href="/todosproductos.html" class="login__boton"><button class="login__boton">Entrar</button></a>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__container">
+                <div class="contacto__datos">
+                    <div class="contacto__logo">
+                        <img src="multimedia/logo.png" alt="logo">
+                        <h1 class="contacto__titulo"><span class="contacto__titulo-letra">Alura</span>Geek</h1>
+                    </div>
+                    <div class="contacto__informacion">
+                        <ul>
+                            <li class="contacto__link"><a href="">Quienes somos</a></li>
+                            <li class="contacto__link"><a href="">Politica de privacidad</a></li>
+                            <li class="contacto__link"><a href="">Programa de fidelidad</a></li>
+                            <li class="contacto__link"><a href="">Nuestras tiendas</a></li>
+                            <li class="contacto__link"><a href="">Quiero ser franquiciado</a></li>
+                            <li class="contacto__link"><a href="">Anuncie aquí</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacto__formulario">
+                    <h4 class="contacto__formulario-titulo">Hable con nosotros</h4>
+                    <div class="contacto__input">
+                        <input name="name" id="name" class="input" type="text" placeholder="Nombre">
+                        <label class="input-label" for="name">Nombre</label>
+                    </div>
+                    <div class="contacto-txtArea">
+                        <textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje aquí"></textarea>
+                    </div>
+                    <button class="contacto__formulario-boton">Enviar mensaje</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <h1 class="footer__datos">Desarrollado por Miguel Vides 2022</h1>
+        </div>
+    </footer>
+</body>
+</html>

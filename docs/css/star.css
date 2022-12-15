@@ -1,0 +1,105 @@
+.star{
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 45px;
+}
+
+.star__container{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    width: 1136px;
+}
+
+.star__titulo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.star__titulo-principal{
+    font-size: 32px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.star__cards:nth-child(n+7){
+    display: none;
+}
+
+.star__card-img{
+    width: 176px;
+    height: 174px;
+}
+
+.star__todo{
+    color: #2A7AE4;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.star__cards{
+    display: flex;
+    gap: 15px
+}
+
+.star__card-titulo{
+    font-size: 16px;
+    font-style: Medium;
+    color: #464646; 
+    margin: 5px 0 10px 0;
+}
+
+.star__card-precio{
+    font-size: 16px;
+    font-weight: bold;
+    color: #232323;
+    margin-bottom: 5px;
+}
+
+.star__card-producto{
+    color: #2A7AE4;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) and (max-width: 1136px){
+    .star__container{
+        padding: 2rem 1rem;
+    }
+    .star__card:nth-last-child(-n+2){
+        display: none;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 767px){
+    .star__container{
+        padding: 2rem 1rem;
+    }
+    .star__card:nth-last-child(-n+2){
+        display: none;
+    }
+    .star__titulo-principal{
+        font-size: 22px;
+    }
+    .star__todo{
+        font-size: 14px;
+    }
+    .star__cards{
+        flex-wrap: wrap;
+    }
+    .star__card-img{
+        width: 156px;
+        height: 174px;
+    }
+    .star__card-titulo{
+        font-size: 14px;
+    }
+    .star__card-precio{
+        font-size: 16px;
+    }
+    .star__card-producto{
+        font-size: 14px;
+    }
+}
